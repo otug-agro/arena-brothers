@@ -48,12 +48,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .hero {
   position: relative;
-  min-height: 800px;
-  height: 100svh;
+  min-height: 100svh;
+  height: 1040px;
   max-height: 1040px;
   overflow: hidden;
   background: #043c73;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 .hero__image { object-fit: cover; object-position: center 50%; }
 .hero__wash {
@@ -125,14 +127,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .header-cta:hover { background: #fff; color: #1a1a1a; transform: translateY(-2px); }
 
 .hero__content {
-  padding-top: clamp(100px, 15vh, 160px);
+  padding-top: 40px;
+  padding-bottom: 60px;
   position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100% - 170px);
-  padding-bottom: 20px;
+  flex: 1;
+  height: auto;
 }
 .hero__eyebrow {
   position: relative;
@@ -172,7 +175,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transform: rotate(-1deg);
 }
 .hero__content > p { max-width: 520px; margin: 34px 0 26px; font-size: 18px; line-height: 1.55; color: rgba(255,255,255,.82); }
-.hero__actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero__actions { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 12px; 
+}
 .button {
   display: inline-flex;
   align-items: center;
