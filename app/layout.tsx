@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
   title: "Arena Brothers Beach Tennis | Marabá",
   description:
     "Beach tennis, torneios e comunidade em Marabá. Consulte horários e fale com a Arena Brothers pelo WhatsApp.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: `${basePath}/favicon.ico`,
+    shortcut: `${basePath}/favicon.ico`,
   },
 };
 

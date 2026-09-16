@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 import { InstagramFeed } from "../components/instagram-feed";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const whatsappUrl =
   "https://wa.me/5594988040853?text=Ol%C3%A1%2C%20Arena%20Brothers!%20Quero%20saber%20mais%20sobre%20hor%C3%A1rios%20e%20reservas.";
 const eventWhatsappUrl =
@@ -45,7 +47,7 @@ function BrandMark({ inverse = false }: { inverse?: boolean }) {
   return (
     <span className={`brand-mark ${inverse ? "brand-mark--inverse" : ""}`} aria-label="Arena Brothers Beach Tennis">
       <Image
-        src={inverse ? "/logo-transparente.png" : "/logo.png"}
+        src={`${basePath}${inverse ? "/logo-transparente.png" : "/logo.png"}`}
         alt="Arena Brothers Beach Tennis"
         width={220}
         height={220}
@@ -60,7 +62,7 @@ export default function Home() {
     <main>
       <section className="hero" id="inicio">
         <Image
-          src="/arena-hero.png"
+          src={`${basePath}/arena-hero.png`}
           alt="Jogadores em uma partida de beach tennis ao entardecer"
           fill
           priority
@@ -198,7 +200,7 @@ export default function Home() {
           <div className="events__poster-wrap">
             <span className="events__tag">Próximo evento</span>
             <Image
-              src="/torneio-municipal-arenas.jpeg"
+              src={`${basePath}/torneio-municipal-arenas.jpeg`}
               alt="Cartaz do 2º Torneio Municipal de Arenas, dias 7, 8 e 9 de novembro, com sede na Arena Brothers"
               width={738}
               height={741}
@@ -273,7 +275,7 @@ export default function Home() {
 
           <div className="location__card">
             <Image
-              src="/logo-circular.png"
+              src={`${basePath}/logo-circular.png`}
               alt="Marca circular da Arena Brothers Beach Tennis"
               width={132}
               height={132}
