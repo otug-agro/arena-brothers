@@ -295,7 +295,7 @@ export default function Home() {
         <div className="page-shell final-cta__inner">
           <div>
             <span>Pronto para jogar?</span>
-            <h2>Chame a sua dupla.<br /><em>A areia espera.</em></h2>
+            <h2>Chame a sua dupla.<br /><em>A areia te espera.</em></h2>
           </div>
           <a className="button button--graphite" href={whatsappUrl} target="_blank" rel="noreferrer">
             <MessageCircle aria-hidden="true" />
