@@ -99,7 +99,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header nav a { position: relative; padding-block: 12px; }
 .site-header nav a::after {
   content: "";
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 5px;
   width: 0;
