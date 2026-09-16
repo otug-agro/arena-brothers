@@ -157,6 +157,12 @@ export default function Home() {
           <div>
             AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
             AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
+            AREIA <b>•</b> ENERGIA <b>•</b> BEACH TENNIS <b>•</b> MARABÁ <b>•</b>
           </div>
         </div>
       </section>
